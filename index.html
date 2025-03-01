@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentimate - The agent who animates your ideas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <svg class="heart-icon" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            </svg>
+            <span>agentimate</span>
+        </div>
+        <div class="nav-links">
+            <a href="#support">Support</a>
+            <a href="#careers">Careers</a>
+            <a href="#blog">Blog</a>
+            <a href="#launched">Launched</a>
+            <a href="#changelog">Changelog</a>
+            <a href="#docs">Docs</a>
+        </div>
+        <div class="auth-buttons">
+            <a href="#signin" class="sign-in">Sign in</a>
+            <a href="#signup" class="sign-up">Sign up</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="hero">
+            <div class="heart-container">
+                <svg class="large-heart" width="120" height="120" viewBox="0 0 24 24">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                </svg>
+            </div>
+            <h1 class="title">Idea to design in seconds.</h1>
+            <p class="subtitle">Agentimate is your superhuman design engineer.<br>Start creating today for free.</p>
+            
+            <div class="prompt-container">
+                <input type="text" placeholder="Ask Agentimate to create a design..." class="prompt-input">
+                <div class="prompt-actions">
+                    <button class="attach-btn">Attach</button>
+                    <button class="import-btn">Import</button>
+                    <button class="visibility-btn">Public</button>
+                </div>
+            </div>
+
+            <div class="quick-actions">
+                <button class="action-btn">Brand identity</button>
+                <button class="action-btn">UI components</button>
+                <button class="action-btn">Motion design</button>
+                <button class="action-btn">Design system</button>
+            </div>
+        </div>
+
+        <div class="demo-section">
+            <div class="demo-container">
+                <div class="demo-prompt">
+                    <div class="demo-input">
+                        <span class="demo-input-prefix">&gt;</span>
+                        <span class="demo-input-text"></span>
+                        <span class="demo-cursor">|</span>
+                    </div>
+                </div>
+                <div class="demo-ui-window">
+                    <div class="window-header">
+                        <div class="window-controls">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="window-title">Preview</div>
+                    </div>
+                    <div class="window-content">
+                        <div class="demo-elements">
+                            <div class="demo-item"></div>
+                            <div class="demo-item"></div>
+                            <div class="demo-item"></div>
+                            <div class="demo-item"></div>
+                            <div class="demo-item"></div>
+                            <div class="demo-item"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonials">
+            <h2 class="section-title">Loved by designers worldwide</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="avatar">
+                        <div class="avatar-gradient"></div>
+                    </div>
+                    <p class="quote">"Agentimate transformed our design workflow. What used to take days now takes minutes."</p>
+                    <div class="author">
+                        <strong>Sarah Chen</strong>
+                        <span>Lead Designer, Dropbox</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="avatar">
+                        <div class="avatar-gradient"></div>
+                    </div>
+                    <p class="quote">"The AI understands design principles better than many humans I've worked with."</p>
+                    <div class="author">
+                        <strong>Michael Torres</strong>
+                        <span>UI Engineer, Spotify</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="avatar">
+                        <div class="avatar-gradient"></div>
+                    </div>
+                    <p class="quote">"This tool has become indispensable for our entire design team. Simply brilliant."</p>
+                    <div class="author">
+                        <strong>Emma Watson</strong>
+                        <span>Design Director, Adobe</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="animations.js"></script>
+</body>
+</html> 
